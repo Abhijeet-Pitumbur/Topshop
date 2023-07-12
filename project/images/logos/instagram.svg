@@ -1,0 +1,22 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612" width="612" height="612">
+	<title>instagram-svg</title>
+	<defs>
+		<radialGradient id="grd1" gradientUnits="userSpaceOnUse" cx="131.2" cy="715.9" r="968.5">
+			<stop offset="0" stop-color="#f9ed32"/>
+			<stop offset=".5" stop-color="#ff4700"/>
+			<stop offset=".7" stop-color="#ee2a7b"/>
+			<stop offset="1" stop-color="#002aff"/>
+		</radialGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: url(#grd1) }
+		.s1 { fill: #ffffff;stroke: #ffffff;stroke-width: 8 }
+		.s2 { fill: #ffffff;stroke: #ffffff;stroke-width: 9 }
+	</style>
+	<path id="Layer" class="s0" d="m43.7 0h524.6c24.2 0 43.7 19.6 43.7 43.7v524.6c0 24.2-19.6 43.7-43.7 43.7h-524.6c-24.1 0-43.7-19.6-43.7-43.7v-524.6c0-24.1 19.6-43.7 43.7-43.7l0 0z"/>
+	<g id="Layer">
+		<path id="Layer" fill-rule="evenodd" class="s1" d="m198.1 541.5c-70.3 0-127.6-57.2-127.6-127.6v-215.8c0-70.3 57.2-127.6 127.6-127.6h215.9c70.3 0 127.6 57.2 127.6 127.6v215.9c-0.1 70.3-57.3 127.5-127.7 127.5h-215.8zm-88.3-343.4v215.9c0 48.7 39.6 88.3 88.3 88.3h215.9c48.7 0 88.3-39.6 88.3-88.3v-215.9c0-48.7-39.6-88.3-88.3-88.3h-215.9c-48.7 0-88.3 39.6-88.3 88.3zm196.2 225.7c-64.9 0-117.8-52.8-117.8-117.8c0-64.9 52.8-117.8 117.8-117.8c64.9 0 117.8 52.8 117.8 117.8c0 64.9-52.9 117.8-117.8 117.8zm-78.5-117.8c0 43.3 35.2 78.5 78.5 78.5c43.3 0 78.5-35.2 78.5-78.5c0-43.3-35.2-78.5-78.5-78.5c-43.3 0-78.5 35.2-78.5 78.5z"/>
+		<path id="Layer" class="s2" d="m427.7 209.3c-13.82 0-25-11.18-25-25c0-13.82 11.18-25 25-25c13.82 0 25 11.18 25 25c0 13.82-11.18 25-25 25z"/>
+	</g>
+</svg>

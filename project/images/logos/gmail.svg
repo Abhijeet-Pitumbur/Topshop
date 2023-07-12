@@ -1,0 +1,20 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 400" width="512" height="400">
+	<title>gmail-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #4285f4 }
+		.s1 { fill: #34a853 }
+		.s2 { fill: #fbbc04 }
+		.s3 { fill: #ea4335 }
+		.s4 { fill: #c5221f }
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<path id="Layer" class="s0" d="m34.91 399.82c-19.29 0-34.91-15.62-34.91-34.91v-250.18l116.36 87.27v197.82h-81.45v0z"/>
+			<path id="Layer" class="s1" d="m395.64 202l116.36-87.27v250.18c0 19.29-15.62 34.91-34.91 34.91h-81.45v-197.82z"/>
+			<path id="Layer" class="s2" d="m428.22 26.29c34.53-25.89 83.78-1.25 83.78 41.89v46.55l-116.36 87.27v-151.27l32.58-24.44z"/>
+		</g>
+		<path id="Layer" fill-rule="evenodd" class="s3" d="m116.36 202v-151.27l139.64 104.73l139.64-104.73v151.27l-139.64 104.73l-139.64-104.73z"/>
+		<path id="Layer" class="s4" d="m0 68.18c0-43.14 49.25-67.78 83.78-41.89l32.58 24.44v151.27l-116.36-87.27v-46.55v0z"/>
+	</g>
+</svg>

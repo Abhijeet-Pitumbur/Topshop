@@ -1,0 +1,62 @@
+/* Abhijeet Pitumbur - Topshop 2023 */
+.box-account {
+	margin-bottom: 25px
+}
+.box-account h3 {
+	font-size: 18px;
+	font-size: 1.125rem;
+	padding-left: 30px;
+	height: 30px;
+	padding-top: 5px;
+	display: inline-block;
+	color: #444444
+}
+.box-account h3.customer {
+	background: url(../images/others/already-customer.svg) center left no-repeat
+}
+.box-account h3.new-customer {
+	background: url(../images/others/new-customer.svg) center left no-repeat
+}
+.box-account .form-container {
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+	padding: 25px;
+	position: relative
+}
+.box-account .form-container hr {
+	margin: 0 0 10px 0;
+	border-color: #EDEDED
+}
+.box-account .form-container a.social-btn {
+	margin-bottom: 0;
+	min-width: inherit
+}
+@media (max-width: 991px) {
+	.box-account .form-container a.social-btn {
+		margin-bottom: 5px
+	}
+}
+.box-account .form-container .form-group {
+	margin-bottom: 10px
+}
+.box-account .form-container #forgotPassword {
+	height: 100% !important;
+	min-height: inherit;
+	background-color: #F4F4F4;
+	padding: 15px
+}
+#individualRadio {
+	display: inline-block;
+	margin-right: 15px
+}
+#companyRadio {
+	display: inline-block
+}
+.hiddenBox {
+	display: none
+}
+#adminSignInMsg {
+	padding: 5px
+}

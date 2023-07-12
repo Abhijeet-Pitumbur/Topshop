@@ -1,0 +1,398 @@
+/* Abhijeet Pitumbur - Topshop 2023 */
+.toolbox {
+	border-bottom: 1px solid #EDEDED;
+	margin-bottom: 20px;
+	padding: 15px 0 12px 0;
+	background-color: #F8F8F8
+}
+.toolbox.abhijeet {
+	background-color: transparent;
+	margin-bottom: 30px
+}
+.toolbox.sticky {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	background-color: #004DDA;
+	animation: smoothScroll 0.5s forwards;
+	-webkit-animation: smoothScroll 0.5s forwards;
+	border-bottom: none
+}
+.toolbox.sticky .container>ul li a {
+	color: #FFFFFF
+}
+.toolbox.sticky .container>ul li a:hover {
+	color: #FFFFFF
+}
+.toolbox.sticky .sort-select:after {
+	color: #FFFFFF
+}
+.toolbox.sticky .sort-select select {
+	color: #FFFFFF
+}
+.toolbox.sticky .sort-select select:focus {
+	color: #FFFFFF
+}
+.toolbox .container>ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+.toolbox .container>ul li {
+	height: 25px;
+	line-height: 25px;
+	display: inline-block;
+	float: right;
+	margin-left: 30px
+}
+@media (max-width: 767px) {
+	.toolbox .container>ul li {
+		margin-left: 15px
+	}
+}
+.toolbox .container>ul li:first-child {
+	float: left;
+	margin-left: 0
+}
+.toolbox .container>ul li i {
+	font-size: 16px;
+	font-size: 1rem;
+	position: relative;
+	top: 3px
+}
+.toolbox .container>ul li a {
+	color: #444444;
+	margin-left: 5px
+}
+.toolbox .container>ul li a span {
+	display: inline-block;
+	margin-left: 5px
+}
+@media (max-width: 767px) {
+	.toolbox .container>ul li a span {
+		display: none
+	}
+}
+.toolbox .container>ul li a.open-filters {
+	display: none
+}
+@media (max-width: 991px) {
+	.toolbox .container>ul li a.open-filters {
+		display: inline-block
+	}
+}
+.toolbox .container>ul li a:hover {
+	color: #004DDA
+}
+.featured-image-gradient {
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 30%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.1) 100%)
+}
+.sort-select {
+	width: auto;
+	overflow: hidden;
+	height: 25px;
+	line-height: 25px;
+	border: none;
+	position: relative;
+	padding-left: 27px
+}
+.sort-select:after {
+	font-family: 'themify';
+	position: absolute;
+	color: #444444;
+	left: 0;
+	top: 0;
+	content: '\e627';
+	font-size: 16px;
+	font-size: 1rem
+}
+.sort-select select {
+	background: transparent;
+	width: 100%;
+	padding-left: 7px;
+	padding-right: 20px;
+	border: 0;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	height: 25px;
+	margin: 0;
+	-moz-appearance: window;
+	-webkit-appearance: none;
+	cursor: pointer;
+	outline: none
+}
+.sort-select select:focus {
+	color: #444444;
+	outline: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none
+}
+.sort-select select::-ms-expand {
+	display: none
+}
+.filters-listing {
+	padding: 15px 0 10px 0
+}
+.filters-listing .dropdown {
+	position: relative;
+	text-align: left
+}
+.filters-listing .dropdown a.drop {
+	color: #444444;
+	font-weight: 500;
+	transition: all 0.3s;
+	display: block;
+	position: relative;
+	background-color: #FFFFFF;
+	border: 1px solid #EDEDED;
+	padding: 10px;
+	line-height: 1
+}
+@media (max-width: 991px) {
+	.filters-listing .dropdown a.drop {
+		margin-bottom: 5px
+	}
+}
+.filters-listing .dropdown a.drop:after {
+	font-family: 'themify';
+	content: '\e64b';
+	font-size: 14px;
+	font-size: 0.875rem;
+	color: #999999;
+	font-weight: 600;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	position: absolute;
+	right: 10px;
+	top: 10px
+}
+.filters-listing .dropdown.show a:after {
+	transform: rotate(180deg)
+}
+.filters-listing .dropdown .dropdown-menu {
+	background: #FFFFFF;
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.175);
+	-moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.175);
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.175);
+	padding: 15px;
+	white-space: normal;
+	width: 100%;
+	color: #444444
+}
+.filters-listing .dropdown a.apply-filter {
+	text-align: center;
+	background-color: #004DDA;
+	color: #FFFFFF;
+	display: block;
+	padding: 10px 0;
+	line-height: 1;
+	font-weight: 500;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px
+}
+.filters-listing .dropdown a.apply-filter:hover {
+	background-color: #FFC107;
+	color: #111111
+}
+.row-item {
+	margin-bottom: 30px
+}
+.row-item figure {
+	position: relative;
+	margin-bottom: 0;
+	-webkit-box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.25)
+}
+@media (max-width: 767px) {
+	.row-item figure {
+		margin-bottom: 15px
+	}
+}
+@media (max-width: 767px) {
+	.row-item figure img {
+		width: 100%;
+		height: auto
+	}
+}
+.row-item .rating {
+	margin-bottom: 5px
+}
+.row-item a h3 {
+	font-size: 18px;
+	font-size: 1.125rem;
+	color: #444444
+}
+@media (max-width: 575px) {
+	.row-item a h3 {
+		font-size: 16px;
+		font-size: 1rem
+	}
+}
+.row-item a h3:hover {
+	color: #004DDA
+}
+.row-item p {
+	margin-bottom: 20px
+}
+.row-item .price-box {
+	margin-bottom: 20px
+}
+.row-item .new-price {
+	font-size: 21px;
+	font-size: 1.3125rem
+}
+.row-item .old-price {
+	font-size: 16px;
+	font-size: 1rem
+}
+.row-item ul {
+	margin: 15px 0 0 0;
+	padding: 0;
+	list-style: none
+}
+.row-item ul li {
+	display: inline-block
+}
+.row-item ul li a span {
+	display: none
+}
+.filter-type {
+	font-size: 14px;
+	font-size: 0.875rem
+}
+.filter-type h6 {
+	border-top: 1px solid #DDDDDD;
+	margin: 15px 0;
+	padding: 15px 0 0 0
+}
+.filter-type label {
+	font-weight: 400
+}
+.filter-type label small {
+	float: right;
+	color: #777777;
+	padding-top: 3px
+}
+.filter-type ul {
+	list-style: none;
+	padding: 5px 0 0 0;
+	margin: 0 0 15px 0
+}
+.filter-type ul li {
+	margin-bottom: 5px
+}
+.filter-type ul li:last-child {
+	margin-bottom: 0
+}
+.filter-type.abhijeet {
+	border-bottom: 1px solid #EDEDED;
+	margin: 0 -15px 15px -15px;
+	padding: 0 15px
+}
+.filter-type.abhijeet ul {
+	list-style: none;
+	padding: 5px 5px 0 5px
+}
+.filter-type.abhijeet h4 a {
+	display: block;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	color: #444444;
+	padding: 8px 10px;
+	margin: -5px -5px 0 -5px;
+	line-height: 1;
+	position: relative
+}
+.filter-type.abhijeet h4 a:after {
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	font-family: 'themify';
+	font-size: 14px;
+	font-size: 0.875rem;
+	position: absolute;
+	right: 10px;
+	top: 8px
+}
+.filter-type.abhijeet h4 a.opened {
+	background-color: #F8F8F8
+}
+.filter-type.abhijeet h4 a.opened:after {
+	content: '\e64b';
+	transform: rotate(180deg)
+}
+.filter-type.abhijeet h4 a.closed:after {
+	content: '\e64b';
+	transform: rotate(0)
+}
+.filter-col {
+	border: 1px solid #EDEDED;
+	padding: 15px;
+	margin-bottom: 25px
+}
+@media (max-width: 991px) {
+	.filter-col {
+		overflow: auto;
+		transform: translateX(-200%);
+		top: 0;
+		left: -100%;
+		bottom: 0;
+		width: 45%;
+		height: 100%;
+		position: fixed !important;
+		background-color: #FFFFFF;
+		z-index: 99999999 !important;
+		margin: 0;
+		-webkit-transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+		-moz-transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+		-ms-transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+		-o-transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+		transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1)
+	}
+	.filter-col.show {
+		transform: translateX(0);
+		left: 0;
+		border: 0
+	}
+}
+@media (max-width: 767px) {
+	.filter-col {
+		width: 100%
+	}
+}
+.filter-col .inner-bt {
+	text-align: right;
+	margin: -10px -15px 15px -15px;
+	padding: 5px 15px 0 0;
+	display: none
+}
+@media (max-width: 991px) {
+	.filter-col .inner-bt {
+		display: block
+	}
+}
+.filter-col .inner-bt i {
+	font-size: 18px;
+	font-size: 1.125rem;
+	color: #999999
+}
+.filter-col .inner-bt i:hover {
+	color: #111111
+}

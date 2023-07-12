@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28">
+	<title>facebook-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #3b5998 }
+		.s1 { fill: #ffffff }
+	</style>
+	<path id="Layer" class="s0" d="m2 0h24c1.11 0 2 0.9 2 2v24c0 1.11-0.89 2-2 2h-24c-1.11 0-2-0.89-2-2v-24c0-1.1 0.89-2 2-2z"/>
+	<path id="Layer" class="s1" d="m15.02 28v-9.56h-3.33v-3.73h3.33v-2.75c0-3.19 2.02-4.93 4.96-4.93c1.41 0 2.63 0.1 2.98 0.15v3.33l-2.04 0c-1.6 0-1.91 0.74-1.91 1.81v2.38h3.82l-0.5 3.73h-3.33v9.56h-3.98h0z"/>
+</svg>

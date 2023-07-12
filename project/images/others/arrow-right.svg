@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 16" width="10" height="16">
+	<title>arrow-right-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #ffffff }
+	</style>
+	<path id="Layer" class="s0" d="m0.82 16.67c-0.45 0-0.82-0.39-0.82-0.87v0v-14.95v0c0-0.48 0.37-0.87 0.82-0.87c0.17 0 0.32 0.05 0.45 0.14l0.14 0.12l8.14 7.08c0.27 0.24 0.45 0.6 0.45 1c0 0.4-0.17 0.76-0.45 1l-8.15 7.09l-0.11 0.09c-0.13 0.09-0.29 0.15-0.47 0.15z"/>
+</svg>

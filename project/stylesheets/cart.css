@@ -1,0 +1,226 @@
+/* Abhijeet Pitumbur - Topshop 2023 */
+.table.cart-list {
+	margin: 0
+}
+.table.cart-list th,
+.table.options-cart th {
+	background-color: transparent;
+	font-weight: normal;
+	color: #111111;
+	border: 0;
+	padding-top: 0
+}
+.table.cart-list th:nth-child(1) {
+	width: 63%
+}
+.table.cart-list th:nth-child(2) {
+	width: 10%
+}
+.table.cart-list th:nth-child(3) {
+	width: 15%
+}
+.table.cart-list th:nth-child(4) {
+	width: 15%
+}
+.table.cart-list td {
+	vertical-align: middle;
+	border: 0
+}
+.table.cart-list td strong {
+	font-weight: 500
+}
+.table.cart-list td.options a {
+	display: inline-block;
+	margin-right: 10px
+}
+.table.cart-list td.options a i {
+	font-size: 18px;
+	font-size: 1.125rem
+}
+.table.cart-list td .numbers-row {
+	background-color: #FFFFFF
+}
+.table.cart-list.table-striped tbody tr:nth-of-type(odd) {
+	background-color: rgba(0, 0, 0, 0.045)
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+	--bs-table-accent-bg: none
+}
+@media (max-width: 767px) {
+	.table.cart-list,
+	.table.cart-list thead,
+	.table.cart-list tbody,
+	.table.cart-list th,
+	.table.cart-list td,
+	.table.cart-list tr {
+		display: block;
+		border: 0
+	}
+	.table.cart-list thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px
+	}
+	.table.cart-list tr {
+		border: 1px solid #DDDDDD
+	}
+}
+@media (max-width: 767px) and (max-width: 991px) {
+	.table.cart-list tr {
+		margin-bottom: 20px
+	}
+}
+@media (max-width: 767px) {
+	.table.cart-list td {
+		border: none;
+		border-bottom: 1px solid #DDDDDD;
+		position: relative;
+		padding-left: 35%
+	}
+	.table.cart-list td:before {
+		position: absolute;
+		top: 12px;
+		left: 12px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap
+	}
+	.table.cart-list td:nth-of-type(1):before,
+	.table.cart-list td:nth-of-type(2):before,
+	.table.cart-list td:nth-of-type(3):before,
+	.table.cart-list td:nth-of-type(4):before,
+	.table.cart-list td:nth-of-type(5):before {
+		font-weight: 700;
+		color: #111111
+	}
+	.table.cart-list td:nth-of-type(1):before {
+		content: 'Product'
+	}
+	.table.cart-list td:nth-of-type(2):before {
+		content: 'Price'
+	}
+	.table.cart-list td:nth-of-type(3):before {
+		content: 'Quantity'
+	}
+	.table.cart-list td:nth-of-type(4):before {
+		content: 'Subtotal'
+	}
+	.table.cart-list td:nth-of-type(5):before {
+		content: 'Edit'
+	}
+}
+.thumb-cart {
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	margin-right: 10px;
+	float: left;
+	position: relative;
+	background-color: #FFFFFF;
+	padding: 5px;
+	box-sizing: content-box
+}
+.thumb-cart img {
+	width: 60px;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%) scale(1.1);
+	-moz-transform: translate(-50%, -50%) scale(1.1);
+	-ms-transform: translate(-50%, -50%) scale(1.1);
+	-o-transform: translate(-50%, -50%) scale(1.1);
+	transform: translate(-50%, -50%) scale(1.1)
+}
+@media (max-width: 991px) {
+	.thumb-cart {
+		display: none
+	}
+}
+.item-cart {
+	float: left;
+	width: 65%;
+	margin: 25px 0 0 10px;
+	line-height: 1.3;
+	font-weight: 500
+}
+@media (max-width: 991px) {
+	.item-cart {
+		margin: 5px 0 0 0;
+		width: 100%;
+		float: none
+	}
+}
+.cart-actions .apply-coupon .form-control {
+	margin-right: 10px;
+	height: 40px
+}
+@media (max-width: 575px) {
+	.cart-actions .apply-coupon .form-control {
+		margin: 0 0 5px 0
+	}
+}
+@media (max-width: 575px) {
+	.cart-actions .btn-1 {
+		width: 100%;
+		margin-bottom: 15px
+	}
+}
+.box-cart {
+	background-color: #FFFFFF;
+	padding: 30px 0;
+	text-align: right
+}
+@media (max-width: 767px) {
+	.box-cart {
+		padding: 30px 0
+	}
+}
+.box-cart h5 {
+	margin-top: 0;
+	padding: 0
+}
+.box-cart small {
+	text-align: center;
+	line-height: 1.1;
+	display: block;
+	margin-top: 10px
+}
+.box-cart ul {
+	list-style: none;
+	margin: 0 0 15px 0;
+	padding: 0;
+	font-weight: 500;
+	font-size: 16px;
+	font-size: 1rem
+}
+.box-cart ul li span {
+	float: left
+}
+.box-cart ul li:last-child {
+	margin-top: 10px;
+	font-weight: bold;
+	color: #FF5353;
+	font-size: 21px;
+	font-size: 1.3125rem
+}
+a.info {
+	display: inline-block;
+	padding-left: 5px;
+	color: #444444
+}
+a.info:hover {
+	color: #004DDA
+}
+a.info:after {
+	font-family: 'themify';
+	content: '\e718';
+	position: relative;
+	right: 0;
+	top: 0;
+	font-size: 15px;
+	font-size: 0.9375rem
+}
+.empty-cart {
+	padding-bottom: 60px
+}
